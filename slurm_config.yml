@@ -1,0 +1,6 @@
+# SlurmLib configuration file. Be sure to fill this one up before using the lib !
+username: example_user_name
+sshkey: /home/usr/.ssh/id_rsa
+distant_personal_folder: /data/users/user
+ssh_config_file: /home/usr/.ssh/default_ssh_config
+conda_bin_path: /home/example_user_name/miniconda/bin  # conda executable folder on the SLURM master node 

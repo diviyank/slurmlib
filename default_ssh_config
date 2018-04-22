@@ -1,0 +1,9 @@
+Host proxy_
+    HostName hostname.ip.adress 
+    User example_user_name
+    IdentityFile id_rsa
+
+Host cluster
+    ProxyCommand ssh -q -A proxy_ nc master-node 22
+    User example_user_name
+    IdentityFile id_rsa
